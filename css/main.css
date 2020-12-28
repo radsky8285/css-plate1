@@ -22,6 +22,10 @@ a {
     clear: both;
 }
 
+br.mo {
+    display: none;
+}
+
 /* header */
 header {
     background: rgba(0,0,0, 0.2);
@@ -172,4 +176,157 @@ section.main .main-title .view::after {
 
 section.main .main-title .view:hover::after {
     width: 100%;
+}
+
+/* section about */
+section.about {
+    background: #fff;
+    padding: 80px 0;
+}
+
+section.about .title {
+    color: #000;
+    text-align: center;
+}
+
+section.about .title h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+section.about .title h2 span {
+    color: #ff8342;
+}
+
+section.about .title p {
+    font-size: 18px;
+    color: #555;
+}
+
+section.about ul {
+    /* background: red; */
+    width: 1400px;
+    margin: 30px auto;
+    border-bottom: 1px solid #ddd;
+}
+
+section.about ul li {
+    float: left;
+    width: 33.3333%;
+}
+
+section.about ul li a .img-box {
+    overflow: hidden;
+}
+
+section.about ul li a .img-box img {
+    width: 100%;
+    transition: 0.8s;
+}
+
+section.about ul li a:hover .img-box img {
+    transform: scale(1.2);
+}
+
+section.about ul li a .text {
+    padding: 25px;
+}
+
+section.about ul li a .text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section.about ul li a .text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section.about ul li a .text p.more {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-top: 7px;
+    position: relative;
+}
+
+section.about ul li a .text p.more::before {
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    line-height: 2;
+
+    width: 30px;
+    height: 30px;
+    background: #ff8342;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+/* section innovation */
+section.innovation {
+    margin-bottom: 150px;
+}
+
+section.innovation .title {
+    color: #000;
+    text-align: center;
+}
+section.innovation .title h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+section.innovation .title h2 span {
+    color: #ff8342;
+}
+section.innovation .title p {
+    font-size: 18px;
+    color: #555;
+}
+
+section.innovation .img-box {
+    width: 1400px;
+    height: 540px;
+    background: url("../img/product_1.jpg") no-repeat center/cover;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+section.innovation .img-box .inner {
+    background: #3a3c4e;
+    width: 80%;
+
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+}
+
+section.innovation .img-box .inner h3 {
+    background: #fff;
+    padding: 25px 45px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+section.innovation .img-box .inner .bottom {
+    padding: 35px 85px;
+    color: #fff;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+section.innovation .img-box .inner .bottom p {
+    float: left;
+}
+section.innovation .img-box .inner .bottom a {
+    float: right;
+    padding: 7px 30px;
+    background: #ff8342;
+    border-radius: 50px;
+}
+section.innovation .img-box .inner .bottom a:hover {
+    background: #f86010;
 }
