@@ -184,21 +184,21 @@ section.about {
     padding: 80px 0;
 }
 
-section.about .title {
+section .title {
     color: #000;
     text-align: center;
 }
 
-section.about .title h2 {
+section .title h2 {
     font-size: 45px;
     margin-bottom: 5px;
 }
 
-section.about .title h2 span {
+section .title h2 span {
     color: #ff8342;
 }
 
-section.about .title p {
+section .title p {
     font-size: 18px;
     color: #555;
 }
@@ -270,7 +270,7 @@ section.innovation {
     margin-bottom: 150px;
 }
 
-section.innovation .title {
+/* section.innovation .title {
     color: #000;
     text-align: center;
 }
@@ -284,7 +284,7 @@ section.innovation .title h2 span {
 section.innovation .title p {
     font-size: 18px;
     color: #555;
-}
+} */
 
 section.innovation .img-box {
     width: 1400px;
@@ -329,4 +329,22 @@ section.innovation .img-box .inner .bottom a {
 }
 section.innovation .img-box .inner .bottom a:hover {
     background: #f86010;
+}
+
+/* section me */
+section.me {
+    margin-bottom: 150px;
+    padding: 80px 0;
+    background: url("../img/me.jpg") no-repeat center/cover;
+}
+
+section.me ul.list {
+    width: 1400px;
+    margin: 50px auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+section.me ul.list li {
+    padding: 30px 60px;
 }
