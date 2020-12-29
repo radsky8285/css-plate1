@@ -345,6 +345,93 @@ section.me ul.list {
     border-bottom: 2px solid #000;
 }
 
-section.me ul.list li {
+section.me ul.list > li {
     padding: 30px 60px;
+    /* background: orange; */
+}
+
+section.me ul.list > li:first-child {
+    border-bottom: 1px solid #ddd;
+}
+
+section.me ul.list > li h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* background: red; */
+    position: relative;
+}
+
+section.me ul.list > li h3 span {
+    color: #ff8342;
+    position: absolute;
+    left: -35px;
+}
+
+section.me ul.list > li p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section.me ul.list > li a.more {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+section.me ul.list > li a.more span {
+    color: #ff8342;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+section.me ul.in {
+    margin-bottom: 30px;
+}
+
+section.me ul.in li {
+    margin-bottom: 10px;
+}
+
+section.me ul.in li em {
+    float: left;    
+    width: 12%;
+    font-weight: 700;
+    /* background: orange; */
+}
+
+section.me ul.in li p {
+    float: left;
+    width: 88%;
+    position: relative;
+}
+
+section.me ul.in li p::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #ff8342;
+    border-radius: 50%;
+
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+#incruit-btn {
+    display: block;
+    width: 280px;
+    background: #ff8342;
+    padding: 10px 0;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+#incruit-btn:focus {
+    outline: none;
 }
