@@ -141,7 +141,21 @@ section.main .main-title {
     text-align: center;
     /* x-offset y-offset blur shadow-color */
     text-shadow: 2px 2px 5px rgba(0,0,0, 0.7);
+
+    animation: main-title-ani 1s;
 }
+@keyframes main-title-ani {
+    0% {
+        opacity: 0;
+        top: 60%;
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
+
 
 section.main .main-title h2 {
     font-size: 55px;
